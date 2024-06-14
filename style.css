@@ -561,7 +561,7 @@ header {
     width: 26vw;
     height: 6vh;
     margin-top: 5px;
-
+       color: #000;
 
 }
 
@@ -577,6 +577,7 @@ header {
     height: 6vh;
     width: 26vw;
     float: left;
+    color: #000;
 }
 
 #message input[type="number"] {
@@ -585,6 +586,7 @@ header {
     padding: 5px;
     padding-left: 0px;
     margin: 10px 0px 5px 0px;
+    color: #000;
 }
 
 textarea {
@@ -592,6 +594,7 @@ textarea {
     height: 10vh;
     width: 26vw;
     padding: 5px 0px;
+       color: #000;
 }
 
 .container {
