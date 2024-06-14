@@ -1,0 +1,1279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+    background-color: rgb(0, 0, 33);
+
+}
+
+.right {
+    padding-left: 350px;
+    padding-top: 20px;
+    margin-left: 240px;
+
+}
+
+.right ul {
+    display: flex;
+}
+
+.right li {
+    float: left;
+    color: white;
+    cursor: pointer;
+    list-style-type: none !important;
+    ;
+    display: block;
+    font-size: 15px;
+}
+
+.right li a {
+    padding: 15px 15px;
+    text-decoration: none !important;
+
+}
+
+.right li a:hover {
+
+    color: rgb(153, 153, 226);
+    font-style: bold;
+    font-size: 1.07em;
+}
+
+.left {
+
+    font-size: 25px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+
+header {
+    display: flex;
+    height: 65px;
+    background-color: rgba(18, 18, 63);
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+
+}
+
+.rightSection {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.leftSection {
+    font-size: 30px;
+    width: 35%;
+    margin-left: 100px;
+}
+
+.leftSection img {
+    width: 16vw;
+    height: 28vh;
+    margin: 30px 0px 30px;
+    margin-left: 40px;
+
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px lightblue;
+}
+
+.leftSection .button .btn {
+    border: 3px;
+    padding: 10px;
+    background-color: #5154be;
+    margin: 30px 20px 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px lightblue;
+}
+
+.button #second {
+    width: 150px;
+}
+
+.leftSection .button .btn:hover {
+    cursor: pointer;
+    background-color: rgb(153, 153, 226);
+    color: black;
+}
+
+.rightSection img {
+    width: 35vw;
+    margin-left: 0px;
+
+}
+
+.purple {
+    color: rgb(107, 107, 228);
+}
+
+#element {
+    color: rgb(107, 107, 228);
+}
+
+.secondSection {
+    align-items: center;
+
+    height: 440px;
+    width: 1100px;
+
+}
+
+.second hr {
+    margin: 60px 5px 10px 10px;
+    width: 97vw;
+    border: 1px solid rgb(26, 26, 72);
+}
+
+.secondSection .skills {
+
+
+    margin-left: 150px;
+    box-shadow: 0 14px 20px rgba(118, 117, 117, 0.6), 0 5px 5px rgba(118, 117, 117, 0.6);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.secondSection .skills li {
+
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+}
+
+.text-gray+div {
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.secondSection+div {
+
+    margin-top: 10px;
+    margin-left: 100px;
+
+}
+
+.secondSection .skills h3 {
+
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.bar {
+    background-color: #353b48;
+    width: 70%;
+    height: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(217, 204, 204, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+
+
+}
+
+.secondSection .text-gray {
+    color: gray;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+
+.html {
+
+    padding-left: 500px;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.CSS {
+    padding-left: 400px;
+    background: linear-gradient(135deg, rgb(0, 236, 118)0%, rgb(153, 103, 252)100%);
+}
+
+.js {
+    padding-left: 200px;
+    background: linear-gradient(135deg, rgb(194, 0, 0)0%, rgb(220, 163, 21)100%);
+}
+
+.c {
+    padding-left: 300px;
+    background: linear-gradient(135deg, rgb(234, 202, 18)0%, rgb(58, 190, 18)100%);
+}
+
+.cpp {
+    padding-left: 100px;
+    background: linear-gradient(135deg, rgb(88, 169, 239)0%, rgb(196, 42, 170)100%);
+}
+
+.java {
+    padding-left: 250px;
+    background: linear-gradient(135deg, rgb(146, 23, 23)0%, rgb(56, 191, 229)100%);
+}
+
+.bt {
+    padding-left: 200px;
+    background: linear-gradient(135deg, rgb(13, 173, 165)0%, rgb(70, 43, 178)100%);
+}
+
+.php {
+    padding-left: 200px;
+    background: linear-gradient(135deg, rgb(232, 30, 161)0%, rgb(31, 153, 210)100%);
+}
+
+.thirdSection hr {
+    margin-top: 240px;
+    border: 1px solid rgb(26, 26, 72);
+}
+.hr hr{
+    border: 1px solid rgb(26, 26, 72);   
+}
+/*hr after project*/
+.phr {
+    margin: 50px 10px 0px 10px;
+    width: 97vw;
+    border: 1px solid rgb(26, 26, 72);
+}
+
+.project {
+    display: flex;
+    margin-top: 10px !important;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project span {
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.project .first {
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.project .second {
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.project .third {
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.project .fp,
+.sp,
+.tp {
+    padding: 10px 5px;
+    margin: 140px 50px 10px 30px !important;
+    width: 17vw;
+    height: 38vh;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.project .fp:hover,
+.sp:hover,
+.tp:hover {
+    box-shadow: 0 0 7px 7px rgb(190, 190, 190);
+}
+
+
+.project div {
+    font-size: .8rem;
+    margin-top: 20px;
+}
+
+.project .weather,
+.Netflix,
+.port {
+    margin: 20px 10px 5px 20px;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.text-gray+div {
+
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.thirdSection+div {
+    font-size: 17px;
+    color: gray;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+.thirdSection .box {
+    background-color: white;
+    margin: 290px 150px;
+    margin-top: 40px;
+    width: 70vw;
+    height: 3px;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    background-color: white;
+    margin: 0px 200px;
+
+    width: 2px;
+    height: 100px;
+
+}
+
+.vertical .first {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+
+    left: -50px;
+
+
+}
+
+.vertical .second {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: -50px;
+
+
+
+}
+
+.vertical .vertical-text {
+    position: relative;
+    top: 10px;
+    left: -40px;
+    width: 140px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.vertical .vertical-desc {
+
+    position: relative;
+    left: -40px;
+    top: 20px;
+    color: rgba(102, 154, 207);
+    width: 100px;
+    font-size: 11px;
+    width: 140px;
+
+}
+
+.hr .text-gray {
+    font-size: 17px;
+    color: gray;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.forthSection>div {
+
+    margin-left: 150px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.forthSection span {
+    margin: 15px auto 30px 150px;
+    text-align: justify;
+    display: flex;
+    width: 1000px;
+}
+
+
+
+.contact1 .text-gray {
+    color: gray;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact .name {
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+
+}
+
+.map {
+    display: none;
+}
+
+#map:target {
+
+    display: block;
+}
+
+.contact .name {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.contact .inner {
+    font-weight: normal;
+    color: gray;
+    font-size: 16px;
+
+}
+
+.contact img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px 20px 0px 10px !important;
+    float: left;
+}
+
+.contact #loc {
+    height: 33px;
+    width: 35px;
+}
+
+#add {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#add1 a {
+
+    text-decoration: none;
+}
+
+#add1 a:hover {
+    color: red;
+}
+
+#email .img {
+    margin: 20px;
+    height: 50px;
+    width: 40px;
+}
+
+#mail {
+    margin-top: 20px;
+}
+
+#mail1 a {
+    text-decoration: none;
+    color: gray;
+}
+
+#mail1 a:hover {
+    color: rgb(200, 50, 50);
+}
+
+#linke {
+    border-radius: 0% !important;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px !important;
+}
+
+#link1 a:hover {
+    color: rgb(153, 153, 226);
+}
+
+
+#link {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#link1 a {
+
+    text-decoration: none;
+    color: gray;
+
+}
+
+#message {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 30px 400px 20px 0px !important;
+    float: right;
+    width: 200px;
+
+
+}
+
+#message input[type="email"] {
+
+    padding: 5px 0px;
+    width: 26vw;
+    height: 6vh;
+    margin-top: 5px;
+
+
+}
+
+
+
+.abc .last {
+    float: left;
+}
+
+#message input[type="text"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 6vh;
+    width: 26vw;
+    float: left;
+}
+
+#message input[type="number"] {
+    height: 6vh;
+    width: 26vw;
+    padding: 5px;
+    padding-left: 0px;
+    margin: 10px 0px 5px 0px;
+}
+
+textarea {
+    margin-top: 5px;
+    height: 10vh;
+    width: 26vw;
+    padding: 5px 0px;
+}
+
+.container {
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: lighter;
+    font-size: small;
+    width: 340px;
+}
+
+.checkbox-container {
+    margin: 1rem 0;
+    font-size: small;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#message1 {
+    margin-top: 1rem;
+    color: red;
+    font-weight: bold;
+}
+
+.hr1 hr {
+
+    width: 100vw!important;
+    border: 1px solid rgb(26, 26, 72);
+    margin: 0px 5px 5px 12px !important;
+}
+
+.footer {
+
+    padding: 20px;
+    text-align: center;
+    left: 0% !important;
+    bottom: 0;
+    margin: 10px 0px 10px 10px;
+    width: 100%;
+
+}
+
+.footer a {
+    color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: #007BFF;
+}
+
+@media screen and (max-width: 500px) and (min-width:300px) {
+    * {
+        margin: 0px;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .firstSection {
+        margin: 0px;
+    }
+
+    .left {
+
+        display: flex;
+        align-items: center;
+
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .portfolio-text {
+        margin-left: 10px;
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    #nav-list {
+        display: none;
+    }
+
+    #nav-list.show {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 60%;
+        border: 1px solid rgb(236, 229, 229);
+        margin-left: 75%;
+        border-radius: 3px;
+    }
+
+    .hamburger-icon {
+        margin-right: 0;
+    }
+
+    .right {
+        padding-left: 0;
+        margin-left: 0;
+        padding-top: 0;
+    }
+
+    .right ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        background-color: rgba(18, 18, 63);
+        position: absolute;
+        top: 65px;
+        left: 0;
+        padding: 10px 0;
+    }
+
+    .right ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .right ul li a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .right.active ul {
+        display: flex;
+    }
+
+    .leftSection {
+        font-size: 25px;
+        margin-left: 60px;
+        margin-bottom: 40px;
+        width: 140%;
+    }
+
+    .leftSection img {
+        width: 40vw;
+        height: 20vh;
+        margin-top: 30px;
+
+    }
+
+    .button #first {
+        height: 50px;
+        width: 90px;
+        margin: 30px 5px 3px 10px;
+        padding-top: 6px;
+        font-size: 13px;
+        float: left;
+        box-shadow: 0px 0px 7px 2px lightblue;
+        overflow-y: hidden;
+    }
+
+    .button #second {
+        height: 50px;
+        width: 90px;
+        margin: 0px;
+        float: left;
+        font-size: 13px;
+        margin: 30px 0px 0px 4px;
+        padding-top: 6px;
+        overflow-y: hidden;
+        box-shadow: 0 0 7px 2px lightblue;
+    }
+
+    .hamburger-icon {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    .hamburger-icon div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 4px 0;
+    }
+
+    .rightSection img {
+        display: none;
+
+    }
+
+
+    hr {
+        margin: 10px;
+        border: 1px solid #333;
+    }
+
+    .secondSection {
+
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 30px;
+        width: 80%;
+        height: 15%;
+    }
+
+    .secondSection hr {
+        margin: 40px 5px 25px -20px !important;
+        width: 88vw;
+    }
+
+    .secondSection .skills {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 1px;
+        padding-top: 0%;
+        margin-bottom: 0px;
+    }
+
+    .secondSection .text-gray {
+        margin: auto;
+        color: grey;
+        font-size: 17px;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+
+    .secondSection>div {
+        font-size: 21px;
+        margin: 0px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+
+    .skills h3 {
+
+        font-size: 6px;
+    }
+
+
+    .bar {
+        background-color: #353b48;
+        width: 150px;
+        margin-left: auto;
+        margin-right: 5px;
+        margin-top: 5px;
+        height: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .secondSection .skills li {
+        list-style: none;
+        padding: 10px 10px;
+
+    }
+
+    .bar:hover {
+        box-shadow: 0 14px 28px rgba(217, 204, 204, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    .html {
+
+        padding-left: 100px;
+        background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+    }
+
+    .CSS {
+        padding-left: 90px;
+        background: linear-gradient(135deg, rgb(0, 236, 118)0%, rgb(153, 103, 252)100%);
+    }
+
+    .js {
+        padding-left: 50px;
+        background: linear-gradient(135deg, rgb(194, 0, 0)0%, rgb(220, 163, 21)100%);
+    }
+
+    .c {
+        padding-left: 100px;
+        background: linear-gradient(135deg, rgb(234, 202, 18)0%, rgb(58, 190, 18)100%);
+    }
+
+    .cpp {
+        padding-left: 100px;
+        background: linear-gradient(135deg, rgb(88, 169, 239)0%, rgb(196, 42, 170)100%);
+    }
+
+    .java {
+        padding-left: 50px;
+        background: linear-gradient(135deg, rgb(146, 23, 23)0%, rgb(56, 191, 229)100%);
+    }
+
+    .bt {
+        padding-left: 100px;
+        background: linear-gradient(135deg, rgb(13, 173, 165)0%, rgb(70, 43, 178)100%);
+    }
+
+    .php {
+        padding-left: 50px;
+        background: linear-gradient(135deg, rgb(232, 30, 161)0%, rgb(31, 153, 210)100%);
+    }
+
+
+    /*project*/
+    .phr {
+        margin: 40px 5px 0px 10px !important;
+        width: 88vw;
+        border: 1px solid rgb(26, 26, 72);
+    }
+
+    .project .weather,
+    .Netflix,
+    .port {
+        margin: 10px 10px 5px 20px;
+        justify-content: center;
+        font-weight: lighter;
+    }
+
+    .project {
+        margin-top: 180px !important;
+        width: 400px;
+        height: 500px;
+        display: inline;
+    }
+
+    .project span {
+        font-size: 21px;
+        font-weight: bold;
+        margin-left: 30px !important;
+    }
+
+    .project .first {
+        margin-top: 5px;
+        font-size: 16px;
+        margin-left: 60px !important;
+
+    }
+
+    .project .second {
+        margin-top: 5px;
+        font-size: 16px;
+        margin-left: 25px;
+    }
+
+    .project .third {
+        margin-top: 5px;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    .project .sp {
+        width: 75vw;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 10px 5px !important;
+        margin: 20px 30px !important;
+    }
+
+    .project .fp {
+        width: 75vw;
+        height: 30vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 20px 30px !important;
+        padding: 10px 5px !important;
+    }
+
+    .project .tp {
+        width: 75vw;
+        height: 33vh;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 20px 30px !important;
+        font-size: 12px;
+    }
+
+    .project .fp:hover,
+    .sp:hover,
+    .tp:hover {
+        box-shadow: 0 0 7px 7px rgb(190, 190, 190);
+    }
+
+
+    .project div {
+        font-size: .8rem;
+    }
+
+    /* contact section */
+
+    .contact1 .text-gray {
+        color: gray;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .contact1 .contact {
+        margin-left: 30px;
+        /* width:-40vw; */
+    }
+
+    .contact1 .contact .name {
+        width: 100px;
+        margin-top: 20px !important;
+    }
+
+    .contact1 .contact #name1,
+    #add1,
+    #link1 {
+        width: 160px;
+
+    }
+
+    #name {
+        margin-top: 45px !important;
+    }
+
+    .map {
+        display: none;
+    }
+
+    #map:target {
+
+        display: block;
+    }
+
+    .contact {
+        width: -170px;
+        margin: 10px 700px 0px 0px;
+    }
+
+    .contact img {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+
+    .contact #loc {
+        height: 30px;
+        width: 30px;
+    }
+
+    #add {
+        margin-left: 10px;
+        margin-top: 60px !important;
+    }
+
+    #add1 a {
+
+        text-decoration: none;
+    }
+
+    #add1 a:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    #email {
+        margin: 0px 0px 0px 5px !important;
+        height: 49px;
+        width: 42px;
+    }
+
+    #mail {
+        margin-top: 20px;
+    }
+
+    #mail1 a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    #mail1 a:hover {
+        cursor: pointer;
+        color: rgb(200, 50, 50);
+    }
+
+    #linke {
+        border-radius: 0% !important;
+        height: 30px;
+        width: 30px;
+    }
+
+    #link {
+        margin: 65px 10px !important;
+    }
+
+    #link1 a:hover {
+        color: rgb(153, 153, 226);
+    }
+
+    #link {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    #link1 a {
+
+        text-decoration: none;
+        color: gray;
+
+    }
+
+    #message {
+        font-size: 21px;
+        font-weight: bold;
+        margin: 500px 200px 30px 50px !important;
+        display: inline;
+        width: 100px;
+    }
+
+    #message input[type="email"] {
+        margin-bottom: 5px !important;
+        width: 75vw;
+        height: 5vh;
+        margin: 0%;
+    }
+
+
+    #message input[type="text"] {
+        margin: 0%;
+        margin-bottom: 5px !important;
+        height: 5vh;
+        width: 75vw;
+        float: left;
+    }
+
+    #message input[type="number"] {
+        height: 5vh;
+        width: 75vw;
+        margin-top: 0px;
+    }
+
+    textarea {
+        margin-top: 1px !important;
+        height: 10vh;
+        width: 75vw;
+        padding-top: 18px;
+    }
+
+    .container {
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-weight: lighter;
+        font-size: 10px;
+        width: 250px;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+    }
+
+    #message1 {
+
+        color: red;
+        font-weight: bold;
+    }
+
+
+    .hr1 hr {
+
+        width: 93vw;
+        border: 1px solid rgb(26, 26, 72);
+        margin: 0px 5px 50px 50px;
+    }
+
+    .thirdSection .text-gray {
+        margin: 20px 0px 0px 30px;
+        color: grey;
+        font-size: 17px;
+    }
+
+    .thirdSection>div {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .thirdSection .box {
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 190px;
+        background-color: white;
+        width: 70vw;
+        height: 2px;
+        display: flex;
+    }
+
+    .thirdSection .vertical {
+
+        margin-right: 30%;
+        background-color: white;
+        margin-left: 50px;
+        width: 2px;
+        height: 50px;
+
+    }
+
+    .vertical .first {
+        width: 50px;
+        height: 45px;
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        left: -25px;
+    }
+
+    .vertical .second {
+        width: 50px;
+        height: 45px;
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        left: -24px;
+    }
+
+    .vertical .vertical-text {
+        position: relative;
+        top: 10px;
+        left: -40px;
+        width: 130px;
+        font-size: 14px;
+        font-weight: lighter;
+        margin-left: 3px;
+    }
+
+    .vertical .vertical-desc {
+
+        position: relative;
+        left: -40px;
+        top: 20px;
+        color: rgba(102, 154, 207);
+        width: 100px;
+        font-size: 11px;
+        width: 140px;
+    }
+
+    .hr .text-gray {
+        font-size: 17px;
+        color: gray;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .forthSection {
+        overflow-y: scroll;
+        height: 500px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .forthSection>div {
+        margin: 10px 0px 0px 30px;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .forthSection span {
+        margin: 10px 0px 10px 30px !important;
+        text-align: justify;
+        display: flex;
+        width: 250px;
+        padding: 0px;
+        font-size: 13px;
+
+
+    }
+
+}

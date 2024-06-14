@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutva Patadiya - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="icon" href="faviconn.jpeg" type="image/jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <div class="left">
+
+                <span class="hamburger-icon " onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </span>
+
+                <div class="portfolio-text">Rutva's Portfolio</div>
+
+            </div>
+            <div class="right">
+
+                <ul id="nav-list">
+                    <li><a href="#firstSection">Home</a></li>
+                    <li><a href="#hr">About</a></li>
+                    <li><a href="#secondSection">Skills</a></li>
+                    <li><a href="cv.html">Projects</a></li>
+                    <li><a href="#firstSection">Resume</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="hr">
+        <section class="firstSection" id="firstSection">
+            <div class="leftSection">
+                <img src="dp.jpg"><br>
+                Hi, My Name is<span class="purple"> Rutva </span>
+                <div>and I am a Passionate</div>
+
+                <span id="element"></span>
+
+                <div class="button">
+                    <button class="btn" id="first" onclick="getResume()">Download Resume</button>
+                    <button class="btn" id="second" onclick="getGithub()">Visit Github</button>
+                </div>
+            </div>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['Web Developer...', 'Freelancer...'],
+                    typeSpeed: 70,
+                    loop: true
+                });
+            </script>
+
+            <div class="rightSection">
+
+
+
+                <img src="right.png">
+            </div>
+
+        </section>
+        <hr>
+    </div>
+
+    <div class="hr" id="hr">
+        <div class="text-gray">
+            Who I am
+        </div>
+        <section class="forthSection">
+            <div>About Me</div>
+            <span>
+                Hello! I'm Rutva Patadiya, a passionate and dedicated web developer with a keen eye for design. With
+                expertise in HTML, CSS, JavaScript, PHP, and Bootstrap, I craft visually appealing and highly functional
+                websites.
+            </span>
+            <span>My journey in web development began with a curiosity for how websites work and has grown into a love
+                for creating engaging user experiences. I thrive on the challenge of transforming ideas into digital
+                realities, ensuring each project is both beautiful and user-friendly.
+            </span>
+            <span>
+                I believe in the power of well-designed web pages to make a lasting impression and enhance user
+                interaction. My skills in front-end and back-end development allow me to build seamless, responsive
+                websites from the ground up. I stay updated with the latest trends and technologies to ensure my work is
+                always at the cutting edge.
+            </span><span>When I'm not coding, I enjoy exploring new design trends, learning about emerging web
+                technologies, and continuously improving my craft. I'm excited to bring my passion for web development
+                to your project and help you create an online presence that truly stands out.
+            </span>
+        </section>
+        <hr>
+    </div>
+
+    <div class="hr">
+        <section class="thirdSection">
+
+            <div class="text-gray">What I study</div>
+
+            <div>Education</div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="first" src="logo.png">
+                    <div class="vertical-text">
+                        Diploma in Engineering (2019-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Diploma in Computer Engineering at VPMP Polytechnic, Gandhinagar
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="second" src="ld_logo.png">
+                    <div class="vertical-text">
+                        Bachelor of Engineering (2022-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Bachelor of Computer Engineering at L.D. college of Engineering, Ahmedabad
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+        </section>
+    </div>
+    <div class="second">
+        <section class="secondSection" id="secondSection">
+            <div class="text-gray">What I know</div>
+            <div> My Skills</div>
+            <div class="skills">
+
+                <li>
+                    <h3>Html</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+
+                <li>
+                    <h3>CSS</h3>
+                    <span class="bar"><span class="CSS"></span></span>
+                </li>
+                <li>
+                    <h3>Javascript</h3>
+                    <span class="bar"><span class="js"></span></span>
+                </li>
+                <li>
+                    <h3>Bootstrap</h3>
+                    <span class="bar"><span class="bt"></span></span>
+                </li>
+                <li>
+                    <h3>C </h3>
+                    <span class="bar"><span class="c"></span></span>
+                </li>
+                <li>
+                    <h3>C++ </h3>
+                    <span class="bar"><span class="cpp"></span></span>
+                </li>
+                <li>
+                    <h3>Core Java</h3>
+                    <span class="bar"><span class="java"></span></span>
+                </li>
+                <li>
+                    <h3>PHP</h3>
+                    <span class="bar"><span class="php"></span></span>
+                </li>
+            </div>
+            <hr>
+        </section>
+    </div>
+
+    <section class="project">
+
+        <span>
+            Projects
+        </span>
+        <div class="fp">
+            <span class="first">
+                Weather APP
+                <div class="weather">This Weather App, I have created using HTML, CSS, javascript & OpenWeatherMap
+                    API.This Project shows the current weather of any City.</div>
+            </span>
+        </div>
+        <div class="sp">
+            <span class="second">
+                Netflix Home Page
+                <div class="Netflix">This is Netflix Home Page which I have created using HTML,CSS, some features of
+                    Javascript. It includes Home page, about us page,etc.</div>
+            </span>
+        </div>
+        <div class="tp">
+            <span class="third">
+                PortFolio Website
+                <div class="port">The Portfolio Website includes sections like about me,contact me and github account
+                    and resume. and this project, I have created using HTML, CSS, Javascript. </div>
+            </span>
+        </div>
+
+    </section>
+
+    <div class="phr">
+
+    </div>
+    <section class="contact1">
+        <div class="text-gray">Get In Touch
+            <div class="abc" id="message">
+
+                Message
+
+                <input type="text" id="nam" placeholder="Name" style="margin-top: 20px;">
+                <input type="email" class="input" placeholder="email">
+                <input type="number" class="input" placeholder="phone">
+                <input type="text" placeholder="subject">
+                <textarea placeholder="message"></textarea>
+                <div class="container">
+                    <h1>Please verify you are not a robot</h1>
+                    <form id="verificationForm">
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="notRobot" name="notRobot">
+                            <label for="notRobot">I am not a robot</label>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <p id="message1"></p>
+                </div>
+                <script src="script.js"></script>
+            </div>
+
+
+        </div>
+
+        <div class="contact">
+            <div>Contact</div>
+            <img src="user.png" class="img" id="user">
+
+            <div class="name" id="name">
+                Name
+                <div class="inner" id="name1">
+                    Rutva Patadiya
+                </div>
+            </div>
+            <img src="location.png" class="img" id="loc">
+            <div class="name" id="add">
+                Address
+                <div class="inner" id="add1">
+                    <a href="#map" class="inner">Ahmedabad,Gujarat</a>
+                    <div class="map" id="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d470082.2718628361!2d72.4242468!3d23.0047546!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1718083854774!5m2!1sen!2sin"
+                            width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+            </div>
+            <img src="email.png" class="img" id="email">
+            <div class="name" id="mail">
+                Email
+                <div class="inner" id="mail1">
+                    <a href="mailto:patadiyarutva@gmail.com">patadiyarutva@gmail.com</a>
+                </div>
+            </div>
+            <img src="linkedin.png" class="img" id="linke">
+            <div class="name" id="link">
+                LinkedIn
+                <div class="inner" id="link1">
+                    <a href="https://www.linkedin.com/in/rutva-patadiya-b5a63a230" target="_blank"> Rutva-Patadiya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hr1">
+        <hr>
+    </div>
+    <div class="footer">
+        <a href="https://wa.me/9712390160" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:patadiyarutva@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/rutva-patadiya-b5a63a230" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Rutva-Patadiya" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    </main>
+</body>
+
+</html>
