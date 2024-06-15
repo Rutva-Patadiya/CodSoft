@@ -10,6 +10,8 @@
 
 body {
     background-color: rgb(0, 0, 33);
+    width:100%;
+    overflow-x: hidden;
 
 }
 
@@ -29,7 +31,6 @@ body {
     color: white;
     cursor: pointer;
     list-style-type: none !important;
-    ;
     display: block;
     font-size: 15px;
 }
@@ -59,6 +60,7 @@ body {
 header {
     display: flex;
     height: 65px;
+    width:100vw;
     background-color: rgba(18, 18, 63);
 }
 
@@ -138,14 +140,13 @@ header {
 }
 
 .second hr {
-    margin: 60px 5px 10px 10px;
-    width: 97vw;
+    margin-left:25px;
+    margin-top:60px;
+    width: 96vw;
     border: 1px solid rgb(26, 26, 72);
 }
 
 .secondSection .skills {
-
-
     margin-left: 150px;
     box-shadow: 0 14px 20px rgba(118, 117, 117, 0.6), 0 5px 5px rgba(118, 117, 117, 0.6);
     text-align: center;
@@ -213,8 +214,6 @@ header {
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
 
-
-
 }
 
 .html {
@@ -261,14 +260,19 @@ header {
 .thirdSection hr {
     margin-top: 240px;
     border: 1px solid rgb(26, 26, 72);
+    width:94vw;
 }
 .hr hr{
     border: 1px solid rgb(26, 26, 72);   
+    width:96vw;
+    /* margin:5px 5px 5px 5px!important; */
+    margin-left:25px;
 }
 /*hr after project*/
 .phr {
-    margin: 50px 10px 0px 10px;
-    width: 97vw;
+    margin-left:25px;
+    margin-top:30px;
+    width: 96vw;
     border: 1px solid rgb(26, 26, 72);
 }
 
@@ -551,8 +555,6 @@ header {
     margin: 30px 400px 20px 0px !important;
     float: right;
     width: 200px;
-
-
 }
 
 #message input[type="email"] {
@@ -561,7 +563,7 @@ header {
     width: 26vw;
     height: 6vh;
     margin-top: 5px;
-       color: #000;
+    color: #000;
 
 }
 
@@ -594,7 +596,7 @@ textarea {
     height: 10vh;
     width: 26vw;
     padding: 5px 0px;
-       color: #000;
+    color: #000;
 }
 
 .container {
@@ -628,9 +630,9 @@ button {
 
 .hr1 hr {
 
-    width: 100vw!important;
+    width: 96vw!important;
     border: 1px solid rgb(26, 26, 72);
-    margin: 0px 5px 5px 12px !important;
+    margin-left:25px;
 }
 
 .footer {
@@ -794,8 +796,10 @@ button {
 
 
     hr {
-        margin: 10px;
+        margin-left: 25px!important;
+        margin-right:-100px;
         border: 1px solid #333;
+        width:85vw!important;
     }
 
     .secondSection {
@@ -808,8 +812,8 @@ button {
     }
 
     .secondSection hr {
-        margin: 40px 5px 25px -20px !important;
-        width: 88vw;
+        margin: 40px 15px 20px 0px !important;
+        width: 83vw !important;
     }
 
     .secondSection .skills {
@@ -909,8 +913,9 @@ button {
 
     /*project*/
     .phr {
-        margin: 40px 5px 0px 10px !important;
-        width: 88vw;
+        margin: 0px 5px!important;
+        margin-left:25px !important;
+        width: 85vw!important;
         border: 1px solid rgb(26, 26, 72);
     }
 
@@ -1174,7 +1179,7 @@ button {
 
     .hr1 hr {
 
-        width: 93vw;
+        width: 85vw !important;
         border: 1px solid rgb(26, 26, 72);
         margin: 0px 5px 50px 50px;
     }
